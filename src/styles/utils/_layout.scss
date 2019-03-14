@@ -1,0 +1,21 @@
+.sprite {
+  width: 0;
+  height: 0;
+}
+
+.route-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@include breakpoint('min', 999px) {
+  .route-container {
+    max-width: 75%;
+  }
+}
+
+@include breakpoint('min', 1240px) {
+  .route-container {
+    max-width: 65%;
+  }
+}

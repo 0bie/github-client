@@ -1,0 +1,20 @@
+.btn--primary {
+  color: theme(default-fg);
+  background-color: theme(default);
+}
+
+.btn--repository {
+  border: 0;
+  margin-left: size(sm);
+  padding: 0.125em size(xs);
+}
+
+.btn--repository .btn-text {
+  font-size: 0.875rem;
+  vertical-align: middle;
+}
+
+.btn--repository .icon {
+  width: 14px;
+  height: 14px;
+}

@@ -1,0 +1,69 @@
+.reactions-container {
+  margin-bottom: size(sm);
+}
+
+.reactions-list {
+  display: flex;
+}
+
+.reaction-item:not(:last-of-type) .reaction {
+  margin-right: size(sm);
+}
+
+.reaction--confused::before {
+  content: "😕";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--eyes::before {
+  content: "👀";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--heart::before {
+  content: "❤️";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--hooray::before {
+  content: "🎉";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--laugh::before {
+  content: "😄";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--rocket::before {
+  content: "🚀";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--thumbs_down::before {
+  content: "👎";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+.reaction--thumbs_up::before {
+  content: "👍";
+  display: block;
+  width: size(sm);
+  height: size(sm);
+}
+
+// https://developer.github.com/v4/enum/reactioncontent/

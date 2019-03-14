@@ -1,0 +1,41 @@
+.form-container {
+  padding: size(md);
+}
+
+.form-section {
+  // overflow: hidden;
+  position: relative;
+  margin-bottom: size(md);
+  padding-left: size(md);
+  padding-right: size(md);
+}
+
+.form-section::before {
+  content: "";
+  height: size(lg);
+  position: absolute;
+  left: size(lg);
+  right: size(lg);
+  bottom: 1px;
+  z-index: get-zindex(apex);
+  background: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+}
+
+.form-footer {
+  position: relative;
+  padding-left: size(md);
+  padding-right: size(md);
+  margin-bottom: size(md);
+}
+
+// .form-section::after {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   z-index: get-zindex(apex);
+//   width: 24px;
+//   height: 60px;
+//   border: 1px solid green;
+//   background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+// }

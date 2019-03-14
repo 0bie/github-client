@@ -1,0 +1,25 @@
+.list {
+  overflow-y: auto;
+  padding-bottom: 6.25em;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 0.0625em 0.25em 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-item:last-of-type {
+  margin-bottom: 6.25em;
+}
+
+.list-item a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.list-item a:hover {
+  text-decoration: underline;
+}
+
+.list-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

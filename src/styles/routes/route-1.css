@@ -1,0 +1,9 @@
+body {
+  overflow: visible;
+}
+
+.repository {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
